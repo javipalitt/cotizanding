@@ -1,0 +1,51 @@
+$color-primary: #C17196;
+$color-secondary: #FFEFAF;
+
+.main__cookies{
+    margin-left: 2em;
+    h1{
+        font-family: 'Heebo';
+        margin-top: 1.45em; 
+        margin-bottom: 1em;         
+        font-size: 2em;
+        letter-spacing: 0.2em;
+        text-align: center;
+        color:$color-primary;
+    }
+    p{
+        font-family: 'Heebo';
+        font-style: normal;
+        font-size: 1.2em;
+        font-weight: 500;
+        text-align: justify;
+    }
+    ul{
+        font-family: 'Heebo';
+        font-style: normal;
+        font-size: 1.2em;
+        font-weight: 500;
+        text-align: justify; 
+    }
+    li{
+        font-family: 'Heebo';
+        font-style: normal;
+        font-size: 1em;
+        font-weight: 500;
+        text-align: justify;
+    }
+    a{
+        font-family: 'Heebo';
+        font-style: normal;
+        font-size: 1em;
+        font-weight: 500;
+        text-align: justify;
+    }
+    .end{
+        font-family: 'Heebo';
+        margin-bottom: 1em;         
+        font-size: 2em;
+        letter-spacing: 0.1em;
+        text-align: center;
+        color:$color-primary;
+    }
+}

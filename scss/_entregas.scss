@@ -1,0 +1,32 @@
+$color-primary: #C17196;
+$color-secondary: #FFEFAF;
+
+.about__zonas{
+    margin-top: 1em;
+    text-align: center;
+    color: $color-primary;
+    p{
+        font-size: 1.3em;
+    }
+}
+
+.backgroundEntrega{
+    height: 80vh;
+    background-image: url(../media/mapa.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+/** Media queries **/
+@media only screen and (max-width: 767px) {
+    .backgroundEntrega { 
+        background-image: url(../media/mapa.png); 
+        height: 50vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}

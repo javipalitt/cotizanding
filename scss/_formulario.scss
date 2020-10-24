@@ -1,0 +1,80 @@
+$color-primary: #C17196;
+$color-secondary: #FFEFAF;
+
+$colors: (
+  instagram: #e95181,
+  facebook: #4b69f0,
+  whatsapp: #13d654,
+);
+
+.background__form{
+    margin: auto;
+    margin-top: 1.8em;
+    background-image: url(../media/pinkman.png);
+    background-position: center;
+    background-size: contain;
+    width: 100vh;
+    height: 75vh;
+    &--mision {
+        color: $color-primary;
+        display: inline-block;
+        position: relative;
+        background-color: $color-secondary;
+        font-weight: bold;
+        width: 100%;
+        top: 45%;
+        align-items: stretch;
+        margin: auto;
+        text-align: center;
+        font-size: 1.5em;
+        }
+    .btn__form{
+        margin-top: 1em;
+        text-decoration: none;
+        border: 1px;
+        border-radius: 1em;
+    }
+}
+
+#mision{
+	font-size: 24px;
+	color: $color-primary;
+}
+
+.btn__form:hover {
+     color: #212529;
+     text-decoration: none;
+     background-color: #dfcd84;
+    }
+
+/** Media queries **/
+@media only screen and (max-width: 767px) {
+    .background__form{
+        margin: auto;
+        margin-top: 1.8em;
+        background-image: url(../media/pinkman.png);
+        background-position: center;
+        background-size: contain;
+        width: 100vh;
+        height: 75vh;
+        &--mision {
+            color: $color-primary;
+            display: inline-block;
+            position: relative;
+            background-color: $color-secondary;
+            font-weight: bold;
+            width: 100%;
+            top: 45%;
+            align-items: stretch;
+            margin: auto;
+            text-align: center;
+            font-size: 1em;
+            }
+        .btn__form{
+            text-decoration: none;
+            border: 1px;
+            border-radius: 1em;
+        }
+    }
+    
+}

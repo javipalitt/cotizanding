@@ -1,0 +1,32 @@
+$color-primary: #C17196;
+$color-secondary: #FFEFAF;
+
+.about__form{
+    margin-top: 2em;
+    margin-left: 1.5em;
+    width: 700px;
+    margin: auto;
+    letter-spacing: 0.2em;
+    font-weight: 600;
+    color: $color-primary;
+    &--inside{
+        word-spacing: 0.3em;
+        color: $color-primary;
+        border: 2px solid $color-secondary !important
+        ;
+    }
+    .btn{
+        color: #f5f5f5;
+        background-color: $color-primary;
+        text-decoration: none;
+        border-color: #f5f5f5; 
+        &:active{
+          text-decoration: #f5f5f5;
+        }
+    }
+    .btn:hover{
+        color: #fff;
+        background-color: #D39CB6;
+        }
+}
+
